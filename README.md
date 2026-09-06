@@ -4,6 +4,10 @@ A small **practice project and demo** for learning ASP.NET Core Minimal APIs and
 
 The original work is a simple C# API with an in-memory list of blogs and GET, POST, PUT, and DELETE endpoints. A lightweight HTML, CSS, and JavaScript frontend builds on that work, keeping the original API structure and avoiding extra frameworks or dependencies.
 
+## Preview
+
+![Blog Notebook practice demo](image.png)
+
 ## What you can try
 
 - View the two starter posts and add your own.
