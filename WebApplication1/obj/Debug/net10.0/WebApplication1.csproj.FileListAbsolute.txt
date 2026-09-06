@@ -26,3 +26,7 @@
 /home/nebula-v15/Code/APIPractice/WebApplication1/obj/Debug/net10.0/WebApplication1.pdb
 /home/nebula-v15/Code/APIPractice/WebApplication1/obj/Debug/net10.0/WebApplication1.genruntimeconfig.cache
 /home/nebula-v15/Code/APIPractice/WebApplication1/obj/Debug/net10.0/ref/WebApplication1.dll
+/home/nebula-v15/Code/APIPractice/WebApplication1/bin/Debug/net10.0/WebApplication1.staticwebassets.runtime.json
+/home/nebula-v15/Code/APIPractice/WebApplication1/obj/Debug/net10.0/compressed/lbpmjeb6q3-{0}-m4x0po1msh-m4x0po1msh.gz
+/home/nebula-v15/Code/APIPractice/WebApplication1/obj/Debug/net10.0/compressed/xuzwmtajel-{0}-hvrpw9z3vp-hvrpw9z3vp.gz
+/home/nebula-v15/Code/APIPractice/WebApplication1/obj/Debug/net10.0/compressed/hcdp730lt6-{0}-rpw6gxmrec-rpw6gxmrec.gz

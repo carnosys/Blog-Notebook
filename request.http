@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5005/blogs/3
+DELETE http://localhost:5005/blogs/2
 
 
 ###

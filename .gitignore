@@ -1,0 +1,9 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Local editor files
+.vs/
+.vscode/
+*.user
+*.suo

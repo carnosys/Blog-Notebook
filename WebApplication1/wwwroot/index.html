@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog notebook · API Practice</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="/">✎ Blog notebook</a><span class="badge">A small practice demo</span></header>
+  <main>
+    <section class="intro"><p class="eyebrow">WRITE. EDIT. EXPERIMENT.</p><h1>A little space for your ideas.</h1><p>A simple blog notebook built while learning ASP.NET Core APIs.<br>Add a thought, try an edit, and see the API in action.</p></section>
+    <p class="notice">Just for practice: posts live in memory and reset when the server restarts.</p>
+    <p id="status" role="status" aria-live="polite"></p>
+    <div class="workspace">
+      <section class="editor" aria-labelledby="editor-heading">
+        <p class="eyebrow">YOUR NOTEBOOK</p><h2 id="editor-heading">New post</h2>
+        <form id="post-form">
+          <label for="title">Title</label><input id="title" name="title" placeholder="Give your idea a title" required>
+          <label for="body">Your thoughts</label><textarea id="body" name="body" rows="9" placeholder="Start writing here…" required></textarea>
+          <div class="form-actions"><button id="save" type="submit">Add post</button><button id="cancel" type="button" class="secondary" hidden>Cancel edit</button></div>
+        </form>
+      </section>
+      <section aria-labelledby="posts-heading">
+        <div class="list-heading"><h2 id="posts-heading">All posts <span id="count">0</span></h2><button id="refresh" class="secondary" type="button">Refresh</button></div>
+        <label class="search-label" for="search">Search posts</label><input id="search" type="search" placeholder="Search titles or thoughts…">
+        <div id="posts" aria-busy="true"><p class="empty">Loading your posts…</p></div>
+      </section>
+    </div>
+  </main>
+  <footer>API Practice <span>Small project. A little more learned.</span></footer>
+  <template id="post-template"><article class="post"><p class="post-number"></p><h3></h3><p class="post-body"></p><div class="post-actions"><button type="button" class="secondary edit">Edit</button><button type="button" class="delete">Delete</button></div></article></template>
+</body>
+</html>
