@@ -1,0 +1,30 @@
+http://localhost:5005/
+
+
+###
+http://localhost:5005/blogs
+
+###
+http://localhost:5005/blogs/1
+
+###
+POST http://localhost:5005/blogs
+Content-Type: application/json
+
+{
+  "title": "My Third Blog",
+  "body": "This is the body of my third blog."
+}
+
+###
+DELETE http://localhost:5005/blogs/3
+
+
+###
+PUT http://localhost:5005/blogs/1
+Content-Type: application/json
+
+{
+  "title": "My Updated Third Blog",
+  "body": "This is the updated body of my third blog."
+}
